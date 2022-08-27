@@ -53,17 +53,17 @@ table {
     text-decoration: none;
     
     }
-.bg-section{
+.pricing-section{
     background-color: #F5F5F5;
+    padding: 80px 0 59px;
 }
 
 .container_pricing {
         max-width: 1170px;
-        margin: 116px auto;
+        margin: 0 auto;
         padding: 0 15px;
     }
-    .title_pricing {
-        padding-top: 80px;
+.title_pricing {
         text-transform: uppercase;
         text-align: center;
         font-family: 'Raleway';
@@ -73,106 +73,103 @@ table {
         line-height: 42px;
         color: #212121;
 }
-    .border_solid_pricing {
+.border_solid_pricing {
         border: 1px solid #E72424;
         width: 64px;
         margin: 34px auto;
 }
-    .description_pricing {
+.description_pricing {
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 19px;
         text-align: center;
-        padding-top: 34px;
+        margin-top: 34px;
         color: #86878B;
 }
-    .wrap_pricing  ul{
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        
-        
-        
+.wrap_pricing{
+    margin-top: 60px;
+    
+}
+.list_item{
+    margin: 0 -15px;
     }
-    .list_pricing {
-        padding-top: 60px;
+.list_pricing {
         display: flex;       
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
         text-align: center;
+        flex-wrap: wrap;
+        margin: 0 15px;
         
 }
 
-    .tariffs_pricing {
+.tariffs_pricing {
         width: 350px;
-        height: 50px;
         background-color:#333333;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
-        line-height: 27px;
-        border: 1px solid #fff;
+        line-height: 50px;
+        margin-top: 4px;
         color: #FFFFFF;
-        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: 0 15px;
+        margin-bottom: 4px;
         
 }
-    .cost_pricing {
+.cost_pricing {
         width: 350px;
-        height: 100px;
         background-color: #333333;
-        border: 1px solid #fff;
+        margin-top: 4px;
         color: #FFFFFF;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 35px;
-        line-height: 41px;
-        display: flex;       
-        justify-content: center;
-        align-items: center;
+        line-height: 100px;
         text-align: center;
+        margin: 0 15px;
+        margin-bottom: 4px;
 }
-    .info_pricing {
+.info_pricing {
         width: 350px;
-        height: 50px;
         background-color: #333333;
         text-align: center;
-        border: 1px solid #fff;
+        margin-top: 4px;
         color: #FFFFFF;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
-        line-height: 19px;
-        color: rgba(255, 255, 255, 0.5);display: flex;       
-        justify-content: center;
-        align-items: center;
+        line-height: 50px;
+        color: rgba(255, 255, 255, 0.5);
         text-align: center;
+        margin: 0 15px;
+        margin-bottom: 4px;
     }
         
 .items_pricing {
     width: 350px;
-    height: 40px;
     background: #FFFFFF;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 40px;
     color: #86878B;
     text-align: center;
-    border: 1px solid #F5F5F5;
-    display: flex;       
-    justify-content: center;
-    align-items: center;
+    margin-top: 4px;
     text-align: center;
+    margin: 0 15px;
+    margin-bottom: 4px;
         }
-        
+    li:last-child {
+            margin-bottom: 0;
+          }
         
     

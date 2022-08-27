@@ -48,6 +48,9 @@ table {
 * {
   box-sizing: border-box;
   }
+  .section_awesome{
+    padding: 116px 0;
+  }
 
   .container_awesome {
     max-width: 1170px;
@@ -55,7 +58,6 @@ table {
     padding: 0 15px;
 }
 .title_awesome {
-    padding-top: 80px;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Raleway';
@@ -78,7 +80,7 @@ table {
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    padding-top: 34px;
+    margin-top: 34px;
     color: #86878B;
     /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
@@ -86,11 +88,14 @@ table {
     display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top:  68px;
+  margin: 0 -15px;
 }
 .card_awesome {
-    padding-top:  68px;
-    margin: auto;
     width: 350px;
+    margin: 0 15px;
+    
 }
 .card-img {
     margin: auto;
@@ -106,7 +111,7 @@ table {
 }
 .card_title {
     text-align: center;
-    padding-top: 30px;
+    margin-top: 30px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -121,6 +126,6 @@ table {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    padding-top: 16px;
+    margin-top: 16px;
     color: #000000;
 }
