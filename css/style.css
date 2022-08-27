@@ -1,7 +1,8 @@
 @import url(./style_awesome.css);
 @import url(./style_pricing.css);
 @import url(./style_customers.css);
-{
+@import url(./style_axure.css);
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
