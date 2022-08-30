@@ -66,11 +66,15 @@ table {
         line-height: 42px;
         color: #212121;
     }
-    .border_customers {
-        border: 1px solid #E72424;
+    .title_customers::after{
+        content: "";
         width: 64px;
         margin: 34px auto;
+        border: 1px solid #E72424;
+        display: block;
+        background-color:#E72424;
     }
+    
     .description_customers {
         font-family: 'Open Sans';
         font-style: normal;
@@ -83,16 +87,13 @@ table {
     }
     .wrap_customers {
         margin-top: 67px;
-        flex-wrap: wrap;
         
     }
-    .card_customers {       
-        flex-wrap: wrap;
-        margin: 0 -15px;
+    .card_customers {
         border-radius: 7px; 
         display: flex;
-        justify-content: space-around;
-    align-items: center;         
+        justify-content: space-around;   
+        flex-wrap: wrap;    
     }
     
     
@@ -101,12 +102,8 @@ table {
         font-weight: 400;
         font-size: 14px;
         line-height: 22px;
-        display: flex;
-        justify-content: space-between;
         color: #86878B;
         text-align: center;
-        margin: 0 15px;
-        flex-wrap: wrap;
     }
        
     .feedback_customers{
@@ -118,16 +115,15 @@ table {
         line-height: 27.5px;
         position: relative;
     }
-    .feedback_customers::before, .block::after {
-        content: ''; 
-        position: absolute;
-        left: 41px; bottom: -20px;
-        border: 10px solid transparent;
-        border-top: 10px solid #E2E2E2;;
-       }
        .feedback_customers::after {
-        border-top: 10px solid white;
-        bottom: -19px; 
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        margin-left: 41px; 
+        border: 20px solid transparent;
+        border-top: 20px solid #E2E2E2; 
+        top: 100%;
        }
     
     .wrap_name_customers{
@@ -135,6 +131,9 @@ table {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+    .wrap_customers :last-child{
+        margin-bottom: 0;
     }
     .img_customers {
         display: flex;
@@ -169,6 +168,3 @@ table {
         justify-content: space-around;
         color: #86878B;
     }
-.wrap_customers :last-child{
-    margin-bottom: 0;
-}
