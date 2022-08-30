@@ -45,60 +45,66 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
- .header {
+.footer {
     background-color: #000000;
+    padding: 30px 0 15px;
 }
-.countainer_header {
+.countainer_footer {
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
+    flex-wrap: wrap;
 }
-.wrap_header {
+.wrap_footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.logo_header {
-    Font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 70px;
-    text-transform: uppercase;
-    /* margin-left: 110px; */
-    flex-wrap: wrap;
-}
-.ax_header {
-    color: #FFFFFF;
-}
-.it_header {
-    color: #EC7979;
-}
-.navigation_header {   
-    flex-wrap: wrap;
-}
-.navigation_list_header {
-    display: flex; 
+.list_links_footer {
+    width: 317px;
+    display: flex;
+    font-size: 25px;
+    margin: 0 auto;  
+    justify-content: space-between; 
     flex-wrap: wrap;   
 }
-.navigation_list_items_header{
-    margin-left: 48px;
-    flex-wrap: wrap;
+.footer_link_item {
+       
 }
-.navigation_list_items_header:last-child{
-    margin-bottom: 0px;
+.footer_link {
+    
 }
-.navigation_list_items_header a {
-    width: 76px;
+.description_footer {
+    margin-top: 18px;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    display: flex;
-    align-items: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
     text-align: center;
-    text-transform: capitalize;
-    color: rgba(255, 255, 255, 0.7);;
+    color: rgba(255, 255, 255, 0.5);
+}
+#facebook_footer{
+    color: #CCCCCC;
+}
+#facebook_footer:hover{
+    
+}
+#twitter_footer{
+    color: #CCCCCC;
+}
+#google_footer{
+    color: #CCCCCC;
+}
+#pinterest_footer{
+    color: #CCCCCC;
+}
+#instagram_footer{
+    color: #CCCCCC;
+}
+#stumbleupon_footer{
+    color: #CCCCCC;
+}
+#wifi_footer{
+    color: #CCCCCC;
 }

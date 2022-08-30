@@ -45,60 +45,75 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
- .header {
-    background-color: #000000;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    }
+.social {
+    background-color: #F8EFEF;
+    padding: 14px 0 17px;
 }
-.countainer_header {
+.countainer_social {
     max-width: 1170px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15px;
-}
-.wrap_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
-.logo_header {
-    Font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 70px;
-    text-transform: uppercase;
-    /* margin-left: 110px; */
-    flex-wrap: wrap;
-}
-.ax_header {
-    color: #FFFFFF;
-}
-.it_header {
-    color: #EC7979;
-}
-.navigation_header {   
-    flex-wrap: wrap;
-}
-.navigation_list_header {
-    display: flex; 
-    flex-wrap: wrap;   
-}
-.navigation_list_items_header{
-    margin-left: 48px;
-    flex-wrap: wrap;
-}
-.navigation_list_items_header:last-child{
-    margin-bottom: 0px;
-}
-.navigation_list_items_header a {
-    width: 76px;
+.title_social {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
     align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: rgba(255, 255, 255, 0.7);;
+    color: #333333;
+}
+.description_social {
+    margin-top: 14px;
+    width: 365px;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.wrap_social {
+    display: flex;  
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.list_social {
+    width: 684px;
+    display: flex;
+    font-size: 25px;
+    margin: 0 auto;  
+    justify-content: space-between; 
+    flex-wrap: wrap;   
+}
+
+#facebook_header{
+    color: #86878B;
+}
+#twitter_header{
+    color: #86878B;
+}
+#google_header{
+    color: #86878B;
+}
+#pinterest_header{
+    color: #86878B;
+}
+#instagram_header{
+    color: #86878B;
+}
+#stumbleupon_header{
+    color: #86878B;
+}
+#wifi_header{
+    color: #86878B;
 }
