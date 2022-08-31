@@ -68,12 +68,7 @@ table {
     justify-content: space-between; 
     flex-wrap: wrap;   
 }
-.footer_link_item {
-       
-}
-.footer_link {
-    
-}
+
 .description_footer {
     margin-top: 18px;
     font-family: 'Open Sans';
@@ -85,26 +80,67 @@ table {
     color: rgba(255, 255, 255, 0.5);
 }
 #facebook_footer{
-    color: #CCCCCC;
+    color: #86878B;
+    opacity: 1;
 }
 #facebook_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
+}
+
+#twitter_footer{
+    color: #86878B;
+    opacity: 1;
     
 }
-#twitter_footer{
-    color: #CCCCCC;
+#twitter_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
 }
 #google_footer{
-    color: #CCCCCC;
+    color: #86878B;
+    opacity: 1;
+}
+#google_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
 }
 #pinterest_footer{
-    color: #CCCCCC;
+    color: #86878B;
+    opacity: 1;
+}
+#pinterest_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
 }
 #instagram_footer{
-    color: #CCCCCC;
+    color: #86878B;
+    opacity: 1;
+}
+#instagram_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
 }
 #stumbleupon_footer{
-    color: #CCCCCC;
+    color: #86878B;
+    opacity: 1;
+}
+#stumbleupon_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
 }
 #wifi_footer{
-    color: #CCCCCC;
+    color: #86878B;
+    opacity: 1;
+}
+#wifi_footer:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(-20deg) scale(1.5);
 }

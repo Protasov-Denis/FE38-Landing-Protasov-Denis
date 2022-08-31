@@ -98,6 +98,28 @@ table {
 .list_item{
     margin: 0 -15px;
     }
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    
+        80% {
+            transform: translateY(-5px);
+            transform: translateY(-5px);
+        }
+    }
+    .list_item:hover{
+        animation: bounce 1.2s;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition: 1s;
+    }
+
 .list_pricing {
     display: flex;       
     justify-content: space-between;

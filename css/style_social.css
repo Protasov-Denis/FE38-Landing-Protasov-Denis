@@ -84,13 +84,13 @@ table {
 }
 .wrap_social {
     display: flex;  
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;  
 }
 .list_social {
     width: 684px;
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
     margin: 0 auto;  
     justify-content: space-between; 
     flex-wrap: wrap;   
@@ -98,22 +98,66 @@ table {
 
 #facebook_header{
     color: #86878B;
+    opacity: 1;
 }
+#facebook_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
+}
+
 #twitter_header{
     color: #86878B;
+    opacity: 1;
+    
+}
+#twitter_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
 }
 #google_header{
     color: #86878B;
+    opacity: 1;
+}
+#google_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
 }
 #pinterest_header{
     color: #86878B;
+    opacity: 1;
+}
+#pinterest_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
 }
 #instagram_header{
     color: #86878B;
+    opacity: 1;
+}
+#instagram_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
 }
 #stumbleupon_header{
     color: #86878B;
+    opacity: 1;
+}
+#stumbleupon_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
 }
 #wifi_header{
     color: #86878B;
+    opacity: 1;
+}
+#wifi_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    transform: rotateZ(20deg) scale(1.5);
 }
