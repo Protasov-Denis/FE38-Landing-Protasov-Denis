@@ -54,7 +54,6 @@ table {
     background-position:center;
     background-size: cover;
     padding: 58px 0 38px;
-    order: 10;
     position: relative;
 }
 .section_axure::before{
