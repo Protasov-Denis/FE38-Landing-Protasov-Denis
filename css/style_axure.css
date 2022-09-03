@@ -113,7 +113,6 @@ table {
     background-color: #FFFFFF;
     color: black;
     transform:scale(1.2);
-    transition: 1s;
 }
 
 .download_text_axure {
@@ -126,4 +125,5 @@ table {
     text-align: center;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+    transition: 1s;
 }

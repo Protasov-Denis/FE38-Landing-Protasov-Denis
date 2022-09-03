@@ -54,13 +54,16 @@ table {
     }
 .social {
     background-color: #F8EFEF;
-    padding: 14px 0 17px;
+    padding: 14px 0 14px;
 }
 .countainer_social {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-    flex-wrap: wrap;
+}
+.social_text{
+    margin: 0 15px;
+    width: 365px;
 }
 .title_social {
     font-family: 'Open Sans';
@@ -84,80 +87,81 @@ table {
 }
 .wrap_social {
     display: flex;  
-    /* align-items: center; */
+    align-items: center;
     flex-wrap: wrap;  
+    justify-content: space-between;
+    margin: 0 -15px;
 }
 .list_social {
     width: 684px;
     display: flex;
-    font-size: 30px;
-    margin: 0 auto;  
+    font-size: 30px;  
     justify-content: space-between; 
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
+    margin: 0 15px; 
 }
 
 #facebook_header{
     color: #86878B;
     opacity: 1;
+    transition: 0.5s;
 }
 #facebook_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
 
 #twitter_header{
     color: #86878B;
     opacity: 1;
-    
+    transition: 0.5s;
 }
 #twitter_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
 #google_header{
     color: #86878B;
     opacity: 1;
+    transition: 0.5s;
 }
 #google_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
 #pinterest_header{
     color: #86878B;
     opacity: 1;
+    transition: 0.5s;
 }
 #pinterest_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
 #instagram_header{
     color: #86878B;
     opacity: 1;
+    transition: 0.5s;
 }
 #instagram_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
 #stumbleupon_header{
     color: #86878B;
     opacity: 1;
+    transition: 0.5s;
 }
 #stumbleupon_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
 #wifi_header{
     color: #86878B;
     opacity: 1;
+    transition: 0.5s;
 }
 #wifi_header:hover{
     opacity: 0.6;
-    transition: 0.5s;
     transform: rotateZ(20deg) scale(1.5);
 }
