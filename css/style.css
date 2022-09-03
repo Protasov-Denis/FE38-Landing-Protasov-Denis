@@ -6,6 +6,7 @@
 @import url(./style_header.css);
 @import url(./style_social.css);
 @import url(./style_footer.css);
+@import url(./style_modern.css);
 
 *{
     margin: 0;
