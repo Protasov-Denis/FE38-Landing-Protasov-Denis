@@ -90,51 +90,47 @@ table {
         color: #86878B;
     }
     .contact_form {
-        width: 100%;
-        padding: 91px 28px 65px;
-        flex-wrap: wrap;
+        padding-top: 90px;
     }
     .contact_form_content {
         display: flex;
-        margin: 0 -85px;
-        justify-content: space-between;
+        
         flex-wrap: wrap;
-               
+        justify-content: space-between;
     }
     .contact_form_info {
-        width: 35%;
-        margin: 0 85px;
+        width: 41%;
+        margin-right: 83px;
         flex-wrap: wrap;
     }
-    .contact_name {
-        max-width: 480px;
-    }
+    
     .contact_input_name {
         width: 100%;
         border: none;
         border-bottom:1px solid #BDBDBD;
+        padding-top: 32px;
     }
     .contact_email {
-        max-width: 480px;
-        padding-top: 83px;
+        padding-top: 32px;
     }
     .cotact_input_email {
         width: 100%;
         border: none;
         border-bottom:1px solid #BDBDBD;
+        padding-top: 32px;
     }
     .contact_password {
-        max-width: 480px;
-        padding-top: 96px;
+        padding-top: 42px;
     }
     .contact_input_password {
         width: 100%;
         border: none;
         border-bottom:1px solid #BDBDBD;
+        padding-top: 36px;
     }
     .contact_form_message {
-        width: 35%;
-        margin: 0 85px;
+        width: 41%;
+        margin-left: 83px;
         flex-wrap: wrap;
     }
     .contact_form_message_text{
@@ -145,12 +141,13 @@ table {
         width: 100%;
         border: none;
         resize: none;
-        padding-top: 234px;
+        padding-top: 225px;
+        
     }
     .contact_form_button {
+        width: 166px;
         cursor: pointer;
         display: block;
-        text-align: center;
         align-items: center;
         margin: 65px auto 0;
         font-family: 'Open Sans';
@@ -162,7 +159,7 @@ table {
         color: #FFFFFF;
         background: #EC7979;
         border: 1px solid #FFFFFF;
-        padding: 11px 32px;
+        padding: 11px 0;
         transition: 1s;
     }
     .contact_form_button:hover{
