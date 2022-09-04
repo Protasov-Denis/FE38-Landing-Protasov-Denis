@@ -137,9 +137,9 @@ table {
     width: 135px;
     }
 .modern_download_text:hover{
-    background-color: #34d44f;
-    transform: scale(1.1);
+    background-color: #FFFFFF;
     color: black;
+    transform:scale(1.2);
 }
 .modern_download_text{
     width: 135px;
@@ -151,7 +151,7 @@ table {
     text-align: center;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
-    transition: 0.3s;
+    transition: 1s;
 
 }
 .modern_form_block{
@@ -248,7 +248,6 @@ table {
     transition: 1s;
 }
 .modern_form_button:hover{
-    background-color: #34d44f;
+    background-color: #EC7979;
     color: black;
-    
 }
