@@ -87,7 +87,10 @@ table {
     margin-left: 48px;
     flex-wrap: wrap;
     border-bottom: 1px solid transparent;
-    
+}
+.navigation_list_items_header_burger{
+    color: #FFFFFF;
+    display: none;
 }
 .navigation_list_items_header:last-child{
     margin-bottom: 0px;
