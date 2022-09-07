@@ -100,7 +100,6 @@ table {
     }
     .contact_form_info {
         width: 41%;
-        margin-right: 83px;
         flex-wrap: wrap;
     }
     
@@ -130,7 +129,6 @@ table {
     }
     .contact_form_message {
         width: 41%;
-        margin-left: 83px;
         flex-wrap: wrap;
     }
     .contact_form_message_text{
