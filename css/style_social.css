@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    }
+.social {
+    background-color: #F8EFEF;
+    padding: 14px 0 14px;
+}
+.countainer_social {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.social_text{
+    margin: 0 15px;
+    width: 365px;
+}
+.title_social {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    color: #333333;
+}
+.description_social {
+    margin-top: 14px;
+    width: 365px;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.wrap_social {
+    display: flex;  
+    align-items: center;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+.list_social {
+    width: 684px;
+    display: flex;
+    font-size: 30px;  
+    justify-content: space-between; 
+    flex-wrap: wrap;  
+    margin: 0 15px; 
+}
+
+#facebook_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#facebook_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
+
+#twitter_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#twitter_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
+#google_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#google_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
+#pinterest_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#pinterest_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
+#instagram_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#instagram_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
+#stumbleupon_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#stumbleupon_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
+#wifi_header{
+    color: #86878B;
+    opacity: 1;
+    transition: 0.5s;
+}
+#wifi_header:hover{
+    opacity: 0.6;
+    transform: rotateZ(20deg) scale(1.5);
+}
