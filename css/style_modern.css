@@ -189,7 +189,7 @@ table {
 }
 
 .modern_input_name{
-    width: 252px;
+    width: 100%;
     border: none;
     border-bottom:1px solid #BDBDBD;
     padding-top: 16px;
@@ -199,7 +199,7 @@ table {
     padding: 19px 59px 0;
 }
 .modern_input_email{
-    width: 252px;
+    width: 100%;
     border: none;
     border-bottom:1px solid #BDBDBD;
     padding-top: 19px;
@@ -211,7 +211,7 @@ table {
 
 }
 .modern_input_password{
-    width: 252px;
+    width: 100%;
     border: none;
     border-bottom:1px solid #BDBDBD;
     padding-top: 19px;
