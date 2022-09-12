@@ -168,3 +168,18 @@ table {
         justify-content: space-around;
         color: #86878B;
     }
+    @media (max-width: 1200px) {
+    
+    }
+    @media (max-width: 992px) {
+      
+    }
+    @media (max-width: 767px) {
+      .info_customers:last-child{margin-top: 20px;}
+    }
+    @media (max-width: 566px) {
+        .info_customers:nth-child(2){margin-top: 20px;}
+      
+    }
+    @media (max-width: 320px) {
+    }

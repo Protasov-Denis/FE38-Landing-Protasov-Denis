@@ -59,7 +59,7 @@ table {
     display: flex;
     font-size: 25px;  
     justify-content: space-between; 
-    width: 317px;  
+    max-width: 317px;  
     margin: auto;   
      
 }
@@ -147,4 +147,18 @@ table {
 #wifi_footer:hover{
     opacity: 0.6;
     transform: rotateZ(-20deg) scale(1.5);
+}
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 566px) {
+  
+}
+@media (max-width: 320px) {
 }

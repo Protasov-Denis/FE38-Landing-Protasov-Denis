@@ -76,7 +76,7 @@ table {
 }
 .description_social {
     margin-top: 14px;
-    width: 365px;
+    max-width: 365px;
     display: flex;
     font-family: 'Open Sans';
     font-style: normal;
@@ -164,4 +164,26 @@ table {
 #wifi_header:hover{
     opacity: 0.6;
     transform: rotateZ(20deg) scale(1.5);
+}
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+  .social_text{
+    margin: auto;
+    text-align: center;
+  }
+  .social_link_item{margin:auto}
+  .list_social{
+
+    margin: 20px auto 0;
+  }
+}
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 566px) {
+  
+}
+@media (max-width: 320px) {
 }

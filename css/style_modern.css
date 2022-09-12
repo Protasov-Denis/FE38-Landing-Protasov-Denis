@@ -88,7 +88,7 @@ table {
 
 }
 .modern_logo {
-    width: 129px;
+    max-width: 129px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -103,7 +103,7 @@ table {
     color: #EC7979;
 }
 .modern_title {
-    width: 544px;
+    max-width: 544px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -123,7 +123,7 @@ table {
 }
 .modern_description {
     margin-top: 39px;
-    width: 282px;
+    max-width: 282px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
@@ -253,4 +253,39 @@ table {
 .modern_form_button:hover{
     background-color: #EC7979;
     color: black;
+}
+@media (max-width: 1200px) {
+    .modern_logo{font-size: 45px;}
+    .modern_title{font-size: 19px;}
+}
+@media (max-width: 992px) {
+  .modern_section{padding-top: 60px;}
+  .modern_title{font-size: 32px;}
+}
+@media (max-width: 767px) {
+  .modern_logo{
+    font-size: 43px;
+  }
+  .modern_title{font-size: 24px;}
+  .modern_info{padding-bottom: 80px;}
+  .modern_download{margin-top: 31px;}
+}
+@media (max-width: 566px) {
+  .modern_wrap{flex-direction: column;}
+  .modern_info{width: 100%;
+    margin: auto;
+    text-align: center;}
+.modern_logo{margin: auto;}
+.modern_download{margin: 30px auto 0}
+.modern_title{font-size: 19px;
+margin-top: 15px;
+padding-top: 0;}
+.modern_description{margin: 39px auto 0;}
+.modern_form_block{width: 100%;padding-bottom: 50px;}
+.modern_form{margin: auto;}
+
+}
+
+@media (max-width: 320px) {
+    .modern_form_block{padding-bottom: 50px;}
 }

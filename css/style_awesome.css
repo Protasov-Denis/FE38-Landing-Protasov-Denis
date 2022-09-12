@@ -95,7 +95,7 @@ table {
     margin: 0 -15px;
 }
 .card_awesome {
-    width: 350px;
+    max-width: 350px;
     margin: 0 15px;
     margin-top:  68px;
 }
@@ -132,4 +132,22 @@ table {
     line-height: 19px;
     margin-top: 16px;
     color: #000000;
+}
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    .card_awesome{
+        margin: 30px auto 0;
+    }
+  
+}
+@media (max-width: 767px) {
+    .wrap_awesome{flex-direction: column;}
+  
+}
+@media (max-width: 566px) {
+  
+}
+@media (max-width: 320px) {
 }

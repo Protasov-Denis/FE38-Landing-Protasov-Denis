@@ -116,3 +116,26 @@ table {
     transition: 0.2s;
      
 }
+@media (max-width: 1200px) {
+    
+  }
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 767px) {
+    
+  }
+  @media (max-width: 566px) {
+    .logo_header{
+        display: flex;
+        justify-content: center;
+    }
+    .wrap_header{display: block;}
+    .it_header{margin-left: 0;}
+    .navigation_list_items_header{margin-left: 0;}
+    .navigation_list_header{justify-content: space-between;}
+  }
+  @media (max-width: 320px) {
+    .logo_header{font-size: 25px;}
+    .navigation_list_items_header a{font-size: 12px;}
+  }

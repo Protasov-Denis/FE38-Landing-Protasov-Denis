@@ -175,3 +175,23 @@ table {
         align-items: center;
         color: #BDBDBD;
     }
+    @media (max-width: 1200px) {
+    
+    }
+    @media (max-width: 992px) {
+      
+    }
+    @media (max-width: 767px) {
+      .contact_form_content{
+        display: block;
+      }
+      .contact_form_info{margin: auto;}
+      .contact_form_message{
+        margin: 30px auto 0; }
+    }
+    @media (max-width: 566px) {
+      .contact_form_info{width: 70%;}
+      .contact_form_message{width: 70%;}
+    }
+    @media (max-width: 320px) {
+    }
